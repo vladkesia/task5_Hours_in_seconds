@@ -1,4 +1,4 @@
-let hours = +prompt('напишіть скільки годин')
+const hours = +prompt('напишіть скільки годин')
 
 if (!isNaN(hours)&& hours>0){
     let result = hours * 3600;
